@@ -19,12 +19,12 @@
         "webEntities": [
           {
             "entityId": "/m/04yx4",
-            "score": 0.687,
+            "score": 0.6131,
             "description": "Man"
           },
           {
             "entityId": "/m/06xgzn",
-            "score": 0.578,
+            "score": 0.5957,
             "description": "Casual wear"
           }
         ],

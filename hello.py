@@ -2,7 +2,7 @@
 from flask import Flask, render_template, redirect, request
 import os
 import scripts
-import script_initial
+import scripts_download
 
 app = Flask(__name__)
 
@@ -23,8 +23,9 @@ def account():
 def index2():
     scripts.genResponse()
     scripts.genKeywords()
+    scripts_download.main()
     url = scripts.genUrl()
-    return redirect(url, code=302)
+    #return redirect(url, code=302)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -42,6 +42,7 @@ def downloadimages(query):
         except:
             pass
 
-for query in search_queries:
-    downloadimages(query)
-    print()
+def main():
+    for query in search_queries:
+        downloadimages(query)
+        print()

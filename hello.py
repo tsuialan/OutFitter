@@ -11,6 +11,14 @@ def home():
     #script_initial.initUrl()
     return render_template('index.html')
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+@app.route('/account')
+def account():
+    return render_template('account.html')
+
 @app.route('/script/')
 def index2():
     scripts.genResponse()

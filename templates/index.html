@@ -12,14 +12,14 @@
 <meta name="author" content="webthemez">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Outfitters - A personalized style just for you!</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/font-icon.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" type="text/css" href="css/style4.css" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/flexslider.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/font-icon.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style4.css') }}">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
@@ -29,13 +29,13 @@
 <!-- header section -->
 <section class="banner" role="banner" id="home">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html">Out|<span>Fitters</span></a>
+    <div class="header-content clearfix"> <a class="logo" href="../templates/index.html">Out|<span>Fitters</span></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
 		 <li><a href="#home">Home</a></li>
 		  <li><a href="#intro">designes</a></li>
           <li><a href="#services">Features</a></li>
-          <li><a href="#content-3-10">About</a></li> 
+          <li><a href="#content-3-10">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#teams">Team</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
@@ -45,8 +45,8 @@
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
   </header>
-  <!-- banner text --> 
- 
+  <!-- banner text -->
+
 <div id="first-slider">
     <div id="carousel-example-generic" class="carousel slide carousel-fade">
         <!-- Indicators -->
@@ -60,20 +60,20 @@
         <div class="carousel-inner" role="listbox">
             <!-- Item 1 -->
             <div class="item active slide1">
-                <div class="row"><div class="container"> 
+                <div class="row"><div class="container">
                     <div class="col-md-9 text-left">
                         <h3 data-animation="animated bounceInDown">Fashion Trends</h3>
-                        <h4 data-animation="animated bounceInUp">Get our latest 2018 Collection </h4>             
+                        <h4 data-animation="animated bounceInUp">Get our latest 2018 Collection </h4>
                      </div>
                 </div></div>
-             </div> 
+             </div>
             <!-- Item 2 -->
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
                         <h3 data-animation="animated bounceInDown">Winter Collection</h3>
                         <h4 data-animation="animated bounceInUp">Create beautiful slideshows </h4>
-                     </div> 
+                     </div>
                 </div></div>
             </div>
             <!-- Item 3 -->
@@ -82,9 +82,9 @@
                     <div class="col-md-7 text-left">
                         <h3 data-animation="animated bounceInDown">Summer Collection</h3>
                         <h4 data-animation="animated bounceInUp">Bootstrap Image Carousel Slider</h4>
-                     </div>  
+                     </div>
                 </div></div>
-            </div>     
+            </div>
         </div>
         <!-- End Wrapper for slides-->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -95,9 +95,9 @@
         </a>
     </div>
 </div>
-  
+
 </section>
-<!-- header section --> 
+<!-- header section -->
 <!-- intro section -->
 <section id="intro" class="section intro">
   <div class="container">
@@ -107,47 +107,47 @@
     </div>
   </div>
 </section>
-<!-- intro section --> 
+<!-- intro section -->
 <!-- section -->
 <section id="Bride_Groom">
-  <div class="container"> 
-  
-    <div class="row">  
+  <div class="container">
+
+    <div class="row">
 	<div class="section-header">
                 <h2 class="wow fadeInDown animated">Design Trends</h2>
                 <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
             </div>
-            <div id="content24" data-section="content-24" class="data-section"> 
+            <div id="content24" data-section="content-24" class="data-section">
     		<div class="col-md-4">
-				
+
 				<img src="images/img1.jpg" alt="bride" class="img-middle"/>
 				<div class="align-center">
 				<h4>Women's Fashion</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-				<a href="details.html" class="morebtn">More</a>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
 				</div>
 			</div>
-				<div class="col-md-4">  
+				<div class="col-md-4">
 				<img src="images/img2.jpg" alt="bride" class="img-middle"/>
 				<div class="align-center">
 				<h4>Men's Fashion</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-				<a href="details.html" class="morebtn">More</a>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
 				</div>
-			</div> 
-			<div class="col-md-4">  
+			</div>
+			<div class="col-md-4">
 				<img src="images/img3.jpg" alt="bride" class="img-middle"/>
 				<div class="align-center">
 				<h4>Kids's Fashion</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-				<a href="details.html" class="morebtn">More</a>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
 				</div>
-			</div> 
+			</div>
     	</div>
-		</div>    
+		</div>
   </div>
 </section>
-<!-- section --> 
+<!-- section -->
 <!-- services section -->
 <section id="services" class="services service-section">
   <div class="container">
@@ -159,25 +159,25 @@
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-heart"></span>
         <div class="services-content">
           <h5>Money Back</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
 	   </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-gift"></span>
         <div class="services-content">
           <h5>Gift Coupon</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
 	   </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-phone"></span>
         <div class="services-content">
           <h5>Free Shipping</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
 		</div>
-      </div> 
+      </div>
     </div>
   </div>
 </section>
-<!-- services section --> 
+<!-- services section -->
 <!--About-->
 <section id="content-3-10" class="content-block data-section nopad content-3-10">
 	<div class="image-container col-sm-6 col-xs-12 pull-left">
@@ -205,9 +205,9 @@
 
 <!-- videos section -->
 <section class="video-section">
-  <div class="container"> 
-    <div class="row">  
-            <div id="content24" data-section="content-24" class="data-section"> 
+  <div class="container">
+    <div class="row">
+            <div id="content24" data-section="content-24" class="data-section">
     		<div class="col-md-6">
 				<h3>Videos</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -218,12 +218,12 @@
 				<div class="embed-responsive embed-responsive-16by9">
 				  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/146742515?badge=0" allowfullscreen=""></iframe>
 				</div>
-			</div> 
+			</div>
     	</div>
-			</div><!-- end row -->    
+			</div><!-- end row -->
   </div>
 </section>
-<!-- videos section --> 
+<!-- videos section -->
 
 <!-- gallery section -->
 <section id="gallery" class="gallery section">
@@ -233,74 +233,74 @@
                 <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
             </div>
     <div class="row no-gutter">
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/01.jpg" class="work-box"> <img src="images/portfolio/01.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/01.jpg" class="work-box"> <img src="images/portfolio/01.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
              <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/02.jpg" class="work-box"> <img src="images/portfolio/02.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/02.jpg" class="work-box"> <img src="images/portfolio/02.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/03.jpg" class="work-box"> <img src="images/portfolio/03.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/03.jpg" class="work-box"> <img src="images/portfolio/03.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/04.jpg" class="work-box"> <img src="images/portfolio/04.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption"> 
-            <p><span class="icon icon-magnifying-glass"></span></p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/05.jpg" class="work-box"> <img src="images/portfolio/05.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/04.jpg" class="work-box"> <img src="images/portfolio/04.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/06.jpg" class="work-box"> <img src="images/portfolio/06.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/05.jpg" class="work-box"> <img src="images/portfolio/05.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/07.jpeg" class="work-box"> <img src="images/portfolio/07.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/06.jpg" class="work-box"> <img src="images/portfolio/06.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/08.jpeg" class="work-box"> <img src="images/portfolio/08.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/07.jpeg" class="work-box"> <img src="images/portfolio/07.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay -->
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="file:///Users/alan/Desktop/Outfitters/templates/images/portfolio/08.jpeg" class="work-box"> <img src="images/portfolio/08.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
              <p><span class="icon icon-magnifying-glass"></span></p>
           </div>
         </div>
-        <!-- overlay --> 
+        <!-- overlay -->
         </a> </div>
     </div>
   </div>
 </section>
-<!-- gallery section --> 
+<!-- gallery section -->
 <!-- our team section -->
 <section id="teams" class="section teams">
   <div class="container">
@@ -312,7 +312,7 @@
       <div class="col-md-3 col-sm-6">
         <div class="person"><img src="images/team-1.jpg" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Jonh Dow</h4> 
+            <h4>Jonh Dow</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
           </div>
         </div>
@@ -320,31 +320,31 @@
       <div class="col-md-3 col-sm-6">
         <div class="person"> <img src="images/team-2.jpg" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Markus Linn</h4> 
+            <h4>Markus Linn</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
-          </div> 
+          </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="person"> <img src="images/team-3.jpg" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Chris Jemes</h4> 
+            <h4>Chris Jemes</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
-          </div> 
+          </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="person"> <img src="images/team-4.jpg" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Vintes Mars</h4> 
+            <h4>Vintes Mars</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- our team section --> 
+<!-- our team section -->
 <!-- Testimonials section -->
 <section id="testimonials" class="section testimonials no-padding">
   <div class="container-fluid">
@@ -354,7 +354,7 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa
 semper aliquam quis mattis consectetur adipiscing elit.." </p>
                 <p>Chris Mentsl</p>
               </blockquote>
@@ -363,7 +363,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <p>"Praesent eget risus vitae massa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+                <p>"Praesent eget risus vitae massa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa
 semper aliquam quis mattis consectetur adipiscing elit.." </p>
                 <p>Kristean velnly</p>
               </blockquote>
@@ -372,7 +372,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <p>"Consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+                <p>"Consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa
 semper aliquam quis mattis consectetur adipiscing elit.." </p>
                 <p>Markus Denny</p>
               </blockquote>
@@ -381,7 +381,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <p>"Vitae massa semper aliquam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+                <p>"Vitae massa semper aliquam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa
 semper aliquam quis mattis consectetur adipiscing elit.." </p>
                 <p>John Doe</p>
               </blockquote>
@@ -392,7 +392,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
     </div>
   </div>
 </section>
-<!-- Testimonials section --> 
+<!-- Testimonials section -->
 
 <!-- contact section -->
 <section id="contact" class="section">
@@ -402,7 +402,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
                 <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
             </div>
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 conForm">       
+      <div class="col-md-8 col-md-offset-2 conForm">
         <div id="message"></div>
         <form method="post" action="php/contact.php" name="cform" id="cform">
           <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
@@ -415,7 +415,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
     </div>
   </div>
 </section>
-<!-- contact section --> 
+<!-- contact section -->
 
 <!-- login section -->
 <section id="login" class="section">
@@ -423,19 +423,19 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
       <div class="section-header">
                 <h2 class="wow fadeInDown animated">Account Page</h2>
                 <p class="wow fadeInDown animated">Sign in or create an account.</p>
-                <a href="login.html"> Click here to go to the sign-in page </a>
+                <a href={{ url_for('login') }}> Click here to go to Sign-in page </a>
             </div>
-      
+
 </section>
-<!-- contact section --> 
+<!-- contact section -->
 
 <!-- Footer section -->
 <footer class="footer">
 <div class="container-fluid">
 <div id="map-row" class="row">
-    <div class="col-xs-12">    
-    	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe> 
-      
+    <div class="col-xs-12">
+    	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+
           <div id="map-overlay" class="col-xs-5 col-xs-offset-6" style="">
     		<h4 style="margin-top:0;color:#fff;">Address</h4>
     		<address style="color:#fff;">
@@ -452,15 +452,15 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
 	 </div>
 </div>
 </footer>
-<!-- Footer section --> 
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
-<script src="js/jquery.fancybox.pack.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script> 
-<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<!-- Footer section -->
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.contact.js"></script>
 </body>
 </html>

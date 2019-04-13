@@ -39,6 +39,7 @@ def genKeywords():
         kwString += word + "+"
     nf.write(kwString)
     nf.close()
+    return dataLog
 
 def genUrl():
     url = ""

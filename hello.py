@@ -1,9 +1,7 @@
 #!/usr/bin/python
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, request
 import os
-import script_console
-import script_json
-import script_url
+import scripts
 
 app = Flask(__name__)
 
@@ -13,9 +11,9 @@ def home():
 
 @app.route('/script/')
 def index2():
-    script_console.runJSonScript()
-    script_json.genKeywords()
-    url = script_url.genUrl()
+    scripts.genResponse()
+    scripts.genKeywords()
+    url = scripts.genUrl()
     return redirect(url, code=302)
 
 if __name__ == '__main__':

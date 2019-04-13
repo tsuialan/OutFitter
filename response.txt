@@ -18,14 +18,14 @@
       "webDetection": {
         "webEntities": [
           {
-            "entityId": "/m/01xyhv",
-            "score": 0.6864,
-            "description": "Suit"
+            "entityId": "/m/06xgzn",
+            "score": 0.6997,
+            "description": "Casual wear"
           },
           {
-            "entityId": "/m/06xgzn",
-            "score": 0.6855,
-            "description": "Casual wear"
+            "entityId": "/m/04yx4",
+            "score": 0.6758,
+            "description": "Man"
           }
         ],
         "fullMatchingImages": [
@@ -69,7 +69,7 @@
             "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
           },
           {
-            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_1.jpg?v=1503891035"
+            "url": "https://modellist-id.com/wp-content/uploads/2017/11/Tods-Gommino-Mariano-Di-Vaio.jpg"
           }
         ],
         "bestGuessLabels": [

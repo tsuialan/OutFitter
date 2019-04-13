@@ -19,13 +19,13 @@
         "webEntities": [
           {
             "entityId": "/m/04yx4",
-            "score": 0.6736,
+            "score": 0.6276,
             "description": "Man"
           },
           {
-            "entityId": "/m/04xz_5",
-            "score": 0.6421,
-            "description": "Blazer"
+            "entityId": "/m/032tl",
+            "score": 0.6009,
+            "description": "Fashion"
           }
         ],
         "fullMatchingImages": [

@@ -5,82 +5,76 @@
         {
           "mid": "/m/09j2d",
           "description": "Clothing",
-          "score": 0.9578006,
-          "topicality": 0.9578006
+          "score": 0.978138,
+          "topicality": 0.978138
         },
         {
-          "mid": "/m/02dl1y",
-          "description": "Hat",
-          "score": 0.93874806,
-          "topicality": 0.93874806
+          "mid": "/m/04xz_5",
+          "description": "Blazer",
+          "score": 0.96193475,
+          "topicality": 0.96193475
         }
       ],
       "webDetection": {
         "webEntities": [
           {
-            "entityId": "/m/02fq_6",
-            "score": 1.4662309,
-            "description": "Fedora"
+            "entityId": "/m/01xyhv",
+            "score": 0.6864,
+            "description": "Suit"
           },
           {
-            "entityId": "/m/02dl1y",
-            "score": 0.703,
-            "description": "Hat"
+            "entityId": "/m/06xgzn",
+            "score": 0.6855,
+            "description": "Casual wear"
           }
         ],
         "fullMatchingImages": [
           {
-            "url": "https://www.fashionablehats.com/mm5/graphics/im/H-MC360_FOSSIL_0a.jpg"
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg"
           },
           {
-            "url": "https://www.fashionablehats.com/mm5/graphics/im/H-MC360_FOSSIL_0a_500x500.jpg"
+            "url": "https://66.media.tumblr.com/c13f88cd9cc07ae673ffffbea1418e13/tumblr_p0ystmRvkk1r5jwlho8_1280.jpg"
           }
         ],
         "partialMatchingImages": [
           {
-            "url": "https://bobandsuewilliams.com/images/fedora-9.jpg"
+            "url": "https://bbs.duoying.com/ueditor/php/upload/image/20181217/1545040958591773.jpeg"
           },
           {
-            "url": "https://www.baileyhats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
+            "url": "https://i.ytimg.com/vi/pJP1Ir2-Eqc/maxresdefault.jpg"
           }
         ],
         "pagesWithMatchingImages": [
           {
-            "url": "https://www.baileyhats.com/catalog/product/view/id/65768/s/flume-fedora/category/606/",
-            "pageTitle": "Flume \u003cb\u003eFedora\u003c/b\u003e - Bailey Hats",
-            "partialMatchingImages": [
+            "url": "https://lifestylebyps.com/blogs/mens-fashion-blog/8-smart-work-outfit-ideas-for-men",
+            "pageTitle": "8 Smart \u003cb\u003eWork\u003c/b\u003e Outfit Ideas For \u003cb\u003eMen\u003c/b\u003e – LIFESTYLE BY PS",
+            "fullMatchingImages": [
               {
-                "url": "https://www.baileyhats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
-              },
-              {
-                "url": "https://www.baileyhats.com/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
+                "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
               }
             ]
           },
           {
-            "url": "https://www.hats.com/flume-fedora.html",
-            "pageTitle": "Flume \u003cb\u003eFedora\u003c/b\u003e - Hats.com",
-            "partialMatchingImages": [
+            "url": "https://www.tumblr.com/tagged/mens-work-style",
+            "pageTitle": "\u003cb\u003emens work style\u003c/b\u003e | Tumblr",
+            "fullMatchingImages": [
               {
-                "url": "https://www.hats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
-              },
-              {
-                "url": "https://www.hats.com/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
+                "url": "https://66.media.tumblr.com/c13f88cd9cc07ae673ffffbea1418e13/tumblr_p0ystmRvkk1r5jwlho8_250.jpg"
               }
             ]
           }
         ],
         "visuallySimilarImages": [
           {
-            "url": "https://i.ebayimg.com/images/g/mkgAAOSwmZJbo8zc/s-l300.jpg"
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
           },
           {
-            "url": "https://www.gentlemansguru.com/wp-content/uploads/2017/04/mens-gray-fedora-hat-From-GentlemansGuru.com_.jpg"
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_1.jpg?v=1503891035"
           }
         ],
         "bestGuessLabels": [
           {
-            "label": "fedora",
+            "label": "work style men",
             "languageCode": "en"
           }
         ]

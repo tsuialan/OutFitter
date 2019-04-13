@@ -19,21 +19,27 @@
         "webEntities": [
           {
             "entityId": "/m/02fq_6",
-            "score": 1.4850005,
+            "score": 1.4662309,
             "description": "Fedora"
           },
           {
             "entityId": "/m/02dl1y",
-            "score": 0.4935,
+            "score": 0.703,
             "description": "Hat"
           }
         ],
         "fullMatchingImages": [
           {
-            "url": "https://sitejerk.com/images/fedora-15.jpg"
+            "url": "https://www.fashionablehats.com/mm5/graphics/im/H-MC360_FOSSIL_0a.jpg"
+          },
+          {
+            "url": "https://www.fashionablehats.com/mm5/graphics/im/H-MC360_FOSSIL_0a_500x500.jpg"
           }
         ],
         "partialMatchingImages": [
+          {
+            "url": "https://bobandsuewilliams.com/images/fedora-9.jpg"
+          },
           {
             "url": "https://www.baileyhats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
           }
@@ -42,7 +48,7 @@
           {
             "url": "https://www.baileyhats.com/catalog/product/view/id/65768/s/flume-fedora/category/606/",
             "pageTitle": "Flume \u003cb\u003eFedora\u003c/b\u003e - Bailey Hats",
-            "fullMatchingImages": [
+            "partialMatchingImages": [
               {
                 "url": "https://www.baileyhats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
               },
@@ -54,7 +60,7 @@
           {
             "url": "https://www.hats.com/flume-fedora.html",
             "pageTitle": "Flume \u003cb\u003eFedora\u003c/b\u003e - Hats.com",
-            "fullMatchingImages": [
+            "partialMatchingImages": [
               {
                 "url": "https://www.hats.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/B/a/Bailey-of-Hollywood-Flume-Fur-Fedora-Fedora-Mink-MAIN-655722457917-4545.jpg"
               },
@@ -66,10 +72,10 @@
         ],
         "visuallySimilarImages": [
           {
-            "url": "https://www.delmonicohatter.com/Merchant2/graphics/00000001/TFBOGE1024PG.jpg"
+            "url": "https://i.ebayimg.com/images/g/mkgAAOSwmZJbo8zc/s-l300.jpg"
           },
           {
-            "url": "https://www.hatsandcaps.co.uk/images/products/large/130282.jpg"
+            "url": "https://www.gentlemansguru.com/wp-content/uploads/2017/04/mens-gray-fedora-hat-From-GentlemansGuru.com_.jpg"
           }
         ],
         "bestGuessLabels": [

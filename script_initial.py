@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-import os, json, uuid
+from flask import Flask, request, json
 
-f = 'request.json'
-with open('data.json', 'r+') as f:
-    d
+if request.method == 'POST':
+	url = request.form['url']

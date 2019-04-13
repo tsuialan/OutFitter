@@ -1,0 +1,21 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg"
+        }
+      },
+      "features": [
+        {
+          "type": "LABEL_DETECTION",
+          "maxResults": 2
+        },
+        {
+          "type": "WEB_DETECTION",
+          "maxResults": 2
+        }
+      ]
+    }
+  ]
+}

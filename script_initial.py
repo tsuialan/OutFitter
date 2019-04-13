@@ -1,6 +1,10 @@
 #!/usr/bin/python
 
-from flask import Flask, request, json
+import json
 
-if request.method == 'POST':
-	url = request.form['url']
+with open("request.json", "r+ ") as f:
+    data = json.load(f)
+    print("Before:", data)
+    data["requests"][0]["image"]["source"] = "https://i.imgur.com/hJVW9nJ.jpg"
+    print("After: ", data)
+f.close()

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+    <title>Outfitter - Personality Quiz</title>
+    <meta content="Find out what type of fashon matches your personality!" name="description">
+    <link href="style.css" rel="stylesheet">
+    <script async="" src="quiz.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <section class="quiz-section quiz-fullscreen section section-dark" id="quiz">
+        <div class="section-background-image">
+        </div>
+
+
+        <div class="container"> 
+            
+            <img src="logo.PNG" alt="Fashion Personality Quiz">
+
+            <div id ="introbox1" class="quizintrobox">
+                <p><b>Welcome to your fashion personality quiz!</b> This website will put you through a series of grueling situations and use your responses to determine what type of fashion matches your personality. Scroll down a bit to find out your fashion type!</p>
+                <button class="button_header" id="startQuizBtn" onclick="startQuiz();document.getElementById('footer').scrollIntoView();" type="button">Start Personality Quiz</button>
+			</div>
+        </div>
+    </section>
+
+
+    <section class="section" id="questions">
+        <div class="container" id="lore_brief">
+            <h2 class="section-heading text-center"></h2>            
+        </div>
+
+        <div class="container" id="quiz-questions">
+					
+            <div class="question invisible" id="question-1">
+                <form>
+                    <h2 class="section-heading text-center">What gener are you?</h2>
+
+                    <input data-endingsentence="You are a man who " name="rq" onclick="setAnswerButton()" type="radio">Male <br>
+                    <input data-endingsentence="You are a female who " name="rq" onclick="setAnswerButton()" type="radio">Female <br>
+                    <input data-endingsentence="You are a male-transgender who " name="rq" onclick="setAnswerButton()" type="radio">Male-transgender <br>
+                    <input data-endingsentence="You are a female-transgender" name="rq" onclick="setAnswerButton()" type="radio">Female-transgender <br>
+                    <input data-endingsentence="You are a unique being who " name="rq" onclick="setAnswerButton()" type="radio">Other <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-2">
+                <form>
+                    <h2 class="section-heading text-center">How much are you willing to spend on clothing on a scale from 1 - 5</h2>
+
+                    <input data-endingsentence="is on a tight budget, needs to save money, and cannot spend money on clothes like a rich person. " name="rq" onclick="setAnswerButton()" type="radio">1 - I am on a tight budget! <br>
+                    <input data-endingsentence="is on a semi-tight budget, needs to save money, and cannot spend money on clothes like a rich person. " name="rq" onclick="setAnswerButton()" type="radio">2 <br>
+                    <input data-endingsentence="can both save money while having the flexibility in buying the clothes they want, despite their budget. " name="rq" onclick="setAnswerButton()" type="radio">3 <br>
+                    <input data-endingsentence="can both save money while having the flexibility in buying the clothes they want, despite their budget. " name="rq" onclick="setAnswerButton()" type="radio">4 <br>
+                    <input data-endingsentence="can spend money like there is no tomorrow. Money is not a problem for you, as it will not prevent you from selecting your killer outfit. " name="rq" onclick="setAnswerButton()" type="radio">5 - I'm rich! I don't care about money! <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-3">
+                <form>
+                    <h2 class="section-heading text-center">How do you like to shop?</h2>
+
+                    <input data-endingsentence="No matter what your budget is, you continue to be very flexible when it comes to clothes and finances. " name="rq" onclick="setAnswerButton()" type="radio">I only shop when I need something <br>
+                    <input data-endingsentence="No matter what your budget is, you really enjoy shoppping, justifying your shoppping preference in regards to finances. " name="rq" onclick="setAnswerButton()" type="radio">I love the entire shopping experience <br>
+                    <input data-endingsentence="No matter what your budget is, you take careful consideration in what you wear. " name="rq" onclick="setAnswerButton()" type="radio">I plan everything out and make a list of what I want to look like <br>
+                    <input data-endingsentence="No matter what your budget is, you purchase items when it fits your personal preference. " name="rq" onclick="setAnswerButton()" type="radio">If I like something, I'd buy it <br>
+                    <input data-endingsentence="No matter what your budget is, you purchase items when it fits your personal preference. " name="rq" onclick="setAnswerButton()" type="radio">I love to hunt for great vintage finds <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-4">
+                <form>
+                    <h2 class="section-heading text-center">What types of colors do you like to wear on a normal day?</h2>
+
+                    <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Whatever I feel like each day <br>
+                    <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Strong, contrasting, and bright <br>
+                    <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Neutral colors <br>
+                    <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Pretty pastels <br>
+                    <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">I like everything to coordinate <br>
+                </form>
+            </div>
+
+
+            <!-- maybe description> -->
+            <div class="question invisible" id="question-5">
+                <form>
+                    <h2 class="section-heading text-center">How would you describe your overall look?</h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio">I'm all about pretty, feminine details and softer lines <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio">Ecletic and funky <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio">I like to make a statement with eye-catching pieces <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio">Neat and organized, timeless <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio">Casual and relaxes <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-6">
+                <form>
+                    <h2 class="section-heading text-center">What types of clothes do you like to wear for work? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Tailored suits <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Individual pieces I can mix and mis-match<br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Easy to wear pieces that mix and match well <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Eye-catching pieces <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Pretty dresses or tops that can be paired with a jacket<br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-7">
+                <form>
+                    <h2 class="section-heading text-center"> What do you like to wear on casual days? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Color coordinated separates <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Something from my vintage collection <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Jeans and comfortable tops <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Pretty, feminine pieces <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> My latest trendy <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-8">
+                <form>
+                    <h2 class="section-heading text-center"> What do you like to wear on special occasions? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Anything unusual and striking <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Something that's dressy but also comfortable like a long skirt with a flowly top <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Velvet, brocade, antiques, lace <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Fitted dresses with lots of details <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Something simple and tailored looking <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-9">
+                <form>
+                    <h2 class="section-heading text-center"> What do you like to wear on romantic dates? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Anything unusual and striking <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Something that's dressy but also comfortable like a long skirt with a flowly top <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Velvet, brocade, antiques, lace <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Fitted dresses with lots of details <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Something simple and tailored looking <br>
+                </form>
+            </div>
+
+
+            <div class="question invisible" id="question-10">
+                <form>
+                    <h2 class="section-heading text-center">What are your favorite shoes like? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> They match my bag <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> High heeled or something funky <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Pretty, with bows or other details <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> Comfortable <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> They usually don't coordinate with my outfit in a conventioonal way <br>
+                </form>
+            </div>
+
+
+            <div class="invisible" id="confirm_answer">
+                <br>
+                <br>
+                <button class="button" onclick="nextQuestion()" type="button">Next Question</button>
+            </div>
+
+
+            <div class="invisible" id="results_screen">
+                <h2 class="section-heading text-center">You are DRAMATIC</h2>
+					<div id="generated_text">
+					</div> <br>
+                    <p>
+                        <a href="../../account.html"> Click here to go to your profile! </a>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer-section section" id="footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <ul class="list-inline right">
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+<!-- template for more questions
+    <div class="question invisible" id="question-#">
+                <form>
+                    <h2 class="section-heading text-center">What do you like to wear on casual days? </h2>
+
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> <br>
+                    <input data-endingsentence=". " name="rq" onclick="setAnswerButton()" type="radio"> <br>
+                </form>
+            </div>
+
+        -->
+
+

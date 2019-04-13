@@ -18,14 +18,14 @@
       "webDetection": {
         "webEntities": [
           {
-            "entityId": "/m/06xgzn",
-            "score": 0.693,
-            "description": "Casual wear"
+            "entityId": "/m/04yx4",
+            "score": 0.687,
+            "description": "Man"
           },
           {
-            "entityId": "/m/04yx4",
-            "score": 0.6678,
-            "description": "Man"
+            "entityId": "/m/06xgzn",
+            "score": 0.578,
+            "description": "Casual wear"
           }
         ],
         "fullMatchingImages": [

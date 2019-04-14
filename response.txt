@@ -19,12 +19,12 @@
         "webEntities": [
           {
             "entityId": "/m/06xgzn",
-            "score": 0.8014,
+            "score": 0.675,
             "description": "Casual wear"
           },
           {
             "entityId": "/m/04yx4",
-            "score": 0.6707,
+            "score": 0.6557,
             "description": "Man"
           }
         ],
@@ -69,7 +69,7 @@
             "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
           },
           {
-            "url": "https://i.pinimg.com/originals/83/11/ba/8311baa8704959778540c96456897a15.jpg"
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_1.jpg?v=1503891035"
           }
         ],
         "bestGuessLabels": [

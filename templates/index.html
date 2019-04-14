@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -29,7 +29,7 @@
 <!-- header section -->
 <section class="banner" role="banner" id="home">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="../templates/index.html">Out|<span>Fitters</span></a>
+    <div class="header-content clearfix"> <a class="logo" href=''>Out|<span>Fitters</span></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
 		 <li><a href="#home">Home</a></li>
@@ -124,7 +124,7 @@
 				<div class="align-center">
 				<h4>Women's Fashion</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
+				<a href="details.html" class="morebtn">More</a>
 				</div>
 			</div>
 				<div class="col-md-4">
@@ -132,7 +132,7 @@
 				<div class="align-center">
 				<h4>Men's Fashion</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
+				<a href="details.html" class="morebtn">More</a>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -140,7 +140,7 @@
 				<div class="align-center">
 				<h4>Kids's Fashion</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-				<a href="file:///Users/alan/Desktop/Outfitters/templates/details.html" class="morebtn">More</a>
+				<a href="details.html" class="morebtn">More</a>
 				</div>
 			</div>
     	</div>
@@ -182,7 +182,7 @@
 <section id="content-3-10" class="content-block data-section nopad content-3-10">
 	<div class="image-container col-sm-6 col-xs-12 pull-left">
 		<div class="background-image-holder">
-      
+
 		</div>
 	</div>
 
@@ -455,12 +455,14 @@ semper aliquam quis mattis consectetur adipiscing elit.." </p>
 <!-- Footer section -->
 <!-- JS FILES -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/retina.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery.contact.js"></script>
+"{{ url_for('static', filename='js/bootstrap.min.js') }}"
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+"{{ url_for('static', filename='js/jquery.flexslider-min.js') }}"
+<script src="{{ url_for('static', filename='js/jquery.flexslider-min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ url_for('static', filename='js/retina.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modernizr.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.contact.js') }}"></script>
 </body>
 </html>

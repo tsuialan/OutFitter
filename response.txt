@@ -1,0 +1,84 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09j2d",
+          "description": "Clothing",
+          "score": 0.978138,
+          "topicality": 0.978138
+        },
+        {
+          "mid": "/m/04xz_5",
+          "description": "Blazer",
+          "score": 0.96193475,
+          "topicality": 0.96193475
+        }
+      ],
+      "webDetection": {
+        "webEntities": [
+          {
+            "entityId": "/m/06xgzn",
+            "score": 0.8896,
+            "description": "Casual wear"
+          },
+          {
+            "entityId": "/m/04yx4",
+            "score": 0.6842,
+            "description": "Man"
+          }
+        ],
+        "fullMatchingImages": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg"
+          },
+          {
+            "url": "https://66.media.tumblr.com/c13f88cd9cc07ae673ffffbea1418e13/tumblr_p0ystmRvkk1r5jwlho8_1280.jpg"
+          }
+        ],
+        "partialMatchingImages": [
+          {
+            "url": "https://bbs.duoying.com/ueditor/php/upload/image/20181217/1545040958591773.jpeg"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/pJP1Ir2-Eqc/maxresdefault.jpg"
+          }
+        ],
+        "pagesWithMatchingImages": [
+          {
+            "url": "https://lifestylebyps.com/blogs/mens-fashion-blog/8-smart-work-outfit-ideas-for-men",
+            "pageTitle": "8 Smart \u003cb\u003eWork\u003c/b\u003e Outfit Ideas For \u003cb\u003eMen\u003c/b\u003e – LIFESTYLE BY PS",
+            "fullMatchingImages": [
+              {
+                "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
+              }
+            ]
+          },
+          {
+            "url": "https://www.tumblr.com/tagged/mens-work-style",
+            "pageTitle": "\u003cb\u003emens work style\u003c/b\u003e | Tumblr",
+            "fullMatchingImages": [
+              {
+                "url": "https://66.media.tumblr.com/c13f88cd9cc07ae673ffffbea1418e13/tumblr_p0ystmRvkk1r5jwlho8_250.jpg"
+              }
+            ]
+          }
+        ],
+        "visuallySimilarImages": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0162/2116/files/work_outfit_ideas_for_men_3.jpg?v=1503891023"
+          },
+          {
+            "url": "https://i.pinimg.com/736x/42/93/e9/4293e91c1539f2b2175067ea151e0eb4.jpg"
+          }
+        ],
+        "bestGuessLabels": [
+          {
+            "label": "work style men",
+            "languageCode": "en"
+          }
+        ]
+      }
+    }
+  ]
+}

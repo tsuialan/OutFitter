@@ -9,8 +9,8 @@
 
     <title>Outfitter - Personality Quiz</title>
     <meta content="Find out what type of fashon matches your personality!" name="description">
-    <link href="style.css" rel="stylesheet">
-    <script async="" src="quiz.js" type="text/javascript"></script>
+    <link href="{{ url_for('static', filename='css/style5.css') }}" rel="stylesheet">
+    <script async="" src="{{ url_for('static', filename='js/quiz.js') }}" type="text/javascript"></script>
 </head>
 
 <body>
@@ -19,9 +19,9 @@
         </div>
 
 
-        <div class="container"> 
-            
-            <img src="logo.PNG" alt="Fashion Personality Quiz">
+        <div class="container">
+
+            <img src="{{ url_for('static', filename='logo0.PNG') }}" alt="Fashion Personality Quiz">
 
             <div id ="introbox1" class="quizintrobox">
                 <p><b>Welcome to your fashion personality quiz!</b> This website will put you through a series of grueling situations and use your responses to determine what type of fashion matches your personality. Scroll down a bit to find out your fashion type!</p>
@@ -33,11 +33,11 @@
 
     <section class="section" id="questions">
         <div class="container" id="lore_brief">
-            <h2 class="section-heading text-center"></h2>            
+            <h2 class="section-heading text-center"></h2>
         </div>
 
         <div class="container" id="quiz-questions">
-					
+
             <div class="question invisible" id="question-1">
                 <form>
                     <h2 class="section-heading text-center">What gener are you?</h2>
@@ -181,7 +181,7 @@
 					<div id="generated_text">
 					</div> <br>
                     <p>
-                        <a href="../../account.html"> Click here to go to your profile! </a>
+                        <a href="{{ url_for('account') }}"> Click here to go to your profile! </a>
                     </p>
             </div>
         </div>
@@ -218,5 +218,3 @@
             </div>
 
         -->
-
-

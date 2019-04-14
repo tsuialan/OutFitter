@@ -17,7 +17,7 @@ def login():
 
 @app.route('/account')
 def account():
-    return render_template('account.html')
+    return render_template('scriptForm/index.html')
 
 @app.route('/script/')
 def index2():

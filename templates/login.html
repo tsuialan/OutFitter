@@ -75,7 +75,7 @@ span.psw {
 
 <form action="/action_page.php">
   <div class="imgcontainer">
-    <img src="/static/Capture.png" alt="Avatar" class="avatar"/>
+    <img src="{{ url_for('static', filename='Capture.png') }}"  alt="Avatar" class="avatar"/>
   </div>
 
   <div class="container">
@@ -86,7 +86,7 @@ span.psw {
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <a href={{ url_for('account') }}>
-      <button type="submit">Login <a href={{ url_for('account') }}> </a></button>
+      <button type="submit" class="psw">Login</button>
     </a>
 
     <label>
@@ -96,10 +96,10 @@ span.psw {
 
   <div class="container" style="background-color:#f1f1f1">
     <a href="index.html">
-      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="button" class="psw">Cancel</button>
     </a>
-    <a href="signup.html">
-      <span class="psw">Don't have an account? Click here!</span>
+    <a href={{ url_for('signup') }}>
+      <button type="button" class="psw">Don't have an account? Click here!</button>
     </a>
   </div>
 </form>

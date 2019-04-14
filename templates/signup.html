@@ -1,31 +1,31 @@
 <html>
-<title> Test </title>
+<title> Sign Up </title>
 <head>
-    <link rel="stylesheet" href="../static/css/signupstyle.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/signupstyle.css') }}" />
 </head>
 
 <body>
 <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
-    
+
     <input type="text" name="username" placeholder="Username" />
     <input type="text" name="email" placeholder="E-mail" />
     <input type="password" name="password" placeholder="Password" />
     <input type="password" name="password2" placeholder="Retype password" />
-    <a href="Quiz/Example/personality.html"> 
+    <a href="Quiz/Example/personality.html">
     <input type="submit" name="signup_submit" value="Sign me up" /> </a>
   </div>
 
 
-  
+
   <div class="right">
     <span class="loginwith">Sign up with<br />social network</span>
-    
-    <a href="https://en-gb.facebook.com/login/"> 
+
+    <a href="https://en-gb.facebook.com/login/">
     <button class="social-signin facebook">Sign up with facebook</button> </a>
 
-    <a href="https://twitter.com/login?lang=en"> 
+    <a href="https://twitter.com/login?lang=en">
     <button class="social-signin twitter">Sign up with Twitter</button> </a>
 
     <a href="https://gmail.com">

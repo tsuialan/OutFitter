@@ -86,7 +86,7 @@ span.psw {
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <a href={{ url_for('account') }}>
-      <button type="submit" class="psw">Login</button>
+      <button type="button">Login</button>
     </a>
 
     <label>
@@ -95,7 +95,7 @@ span.psw {
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-    <a href="index.html">
+    <a href={{ url_for('login') }}>
       <button type="button" class="psw">Cancel</button>
     </a>
     <a href={{ url_for('signup') }}>

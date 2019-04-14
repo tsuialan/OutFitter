@@ -1,0 +1,87 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09j2d",
+          "description": "Clothing",
+          "score": 0.9908333,
+          "topicality": 0.9908333
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "White",
+          "score": 0.9794829,
+          "topicality": 0.9794829
+        }
+      ],
+      "webDetection": {
+        "webEntities": [
+          {
+            "entityId": "/m/01d40f",
+            "score": 0.7375,
+            "description": "Dress"
+          },
+          {
+            "entityId": "/m/0d2v4v",
+            "score": 0.6923,
+            "description": "Neckline"
+          }
+        ],
+        "fullMatchingImages": [
+          {
+            "url": "https://image.dhgate.com/0x0/f2/albu/g7/M01/54/6B/rBVaSVsUy1uAf6LrAAJXmLYy6Ao847.jpg"
+          },
+          {
+            "url": "https://di2ponv0v5otw.cloudfront.net/posts/2018/03/12/5aa7577bf9e501756e399ebd/m_5aa7578585e605c33e24de46.jpg"
+          }
+        ],
+        "partialMatchingImages": [
+          {
+            "url": "https://image.dhgate.com/0x0/f2/albu/g6/M00/F6/23/rBVaSFsH1vmAEDc4AAMBWPZduz0022.jpg"
+          },
+          {
+            "url": "https://ae01.alicdn.com/kf/HTB11kv9wNWYBuNjy1zkq6xGGpXaB.jpg"
+          }
+        ],
+        "pagesWithMatchingImages": [
+          {
+            "url": "http://www.aliexpress.com/i/32885907006.html",
+            "pageTitle": "yinlinhe V neck \u003cb\u003eSummer Dress Floral\u003c/b\u003e Bowknot Tie ... - AliExpress.com",
+            "partialMatchingImages": [
+              {
+                "url": "http://ae01.alicdn.com/kf/HTB1JyCopQKWBuNjy1zjq6AOypXaD.jpg"
+              }
+            ]
+          },
+          {
+            "url": "https://www.dhgate.com/product/white-summer-dress-sleeveless-v-neck-floral/413926026.html",
+            "pageTitle": "\u003cb\u003eWhite Summer Dress\u003c/b\u003e Sleeveless V Neck \u003cb\u003eFloral\u003c/b\u003e Sexy Beach \u003cb\u003eDress\u003c/b\u003e ...",
+            "partialMatchingImages": [
+              {
+                "url": "https://www.dhresource.com/100x100/f2/albu/g6/M00/F6/23/rBVaSFsH1vmAEDc4AAMBWPZduz0022.jpg"
+              },
+              {
+                "url": "https://image.dhgate.com/0x0/f2/albu/g6/M00/F6/23/rBVaSFsH1vmAEDc4AAMBWPZduz0022.jpg"
+              }
+            ]
+          }
+        ],
+        "visuallySimilarImages": [
+          {
+            "url": "https://image.dhgate.com/0x0/f2/albu/g6/M00/F6/23/rBVaSFsH1vmAEDc4AAMBWPZduz0022.jpg"
+          },
+          {
+            "url": "https://li1.rightinthebox.com/images/240x312/201807/jasqqx1533026147114.jpg"
+          }
+        ],
+        "bestGuessLabels": [
+          {
+            "label": "summer white dresses floral",
+            "languageCode": "en"
+          }
+        ]
+      }
+    }
+  ]
+}

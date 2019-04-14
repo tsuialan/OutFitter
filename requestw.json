@@ -1,0 +1,21 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "https://image.dhgate.com/0x0/f2/albu/g7/M01/54/6B/rBVaSVsUy1uAf6LrAAJXmLYy6Ao847.jpg"
+        }
+      },
+      "features": [
+        {
+          "type": "LABEL_DETECTION",
+          "maxResults": 2
+        },
+        {
+          "type": "WEB_DETECTION",
+          "maxResults": 2
+        }
+      ]
+    }
+  ]
+}

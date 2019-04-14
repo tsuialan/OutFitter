@@ -25,6 +25,10 @@ def account():
 def signup():
     return render_template('signup.html')
 
+@app.route('/quiz')
+def personQuiz():
+    return render_template('Quiz/Example/personality.html')
+
 @app.route('/script/')
 def index2():
     scripts.genResponse()

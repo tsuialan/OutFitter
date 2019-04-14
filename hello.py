@@ -19,12 +19,21 @@ def login():
 def account():
     return render_template('scriptForm/index.html')
 
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
 @app.route('/script/')
 def index2():
     scripts.genResponse()
     scripts.genKeywords()
     scripts_download.main()
     #url = scripts.genUrl()
+    url = "http://photo-albums-20190413200901-hostingbucket-master.s3-website-us-east-1.amazonaws.com/albums/57dc6292-82ca-4616-9ca6-3d9f6839bfd0"
+    return redirect(url, code=302)
+
+@app.route('/script2/')
+def index():
     url = "http://photo-albums-20190413200901-hostingbucket-master.s3-website-us-east-1.amazonaws.com/albums/57dc6292-82ca-4616-9ca6-3d9f6839bfd0"
     return redirect(url, code=302)
 

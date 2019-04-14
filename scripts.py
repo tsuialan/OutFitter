@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import os
+from pathlib import Path
 
 def genResponse():
     os.system("curl -v -s -H 'Content-Type: application/json' \
@@ -12,6 +13,12 @@ def genKeywords():
 
     keyOne = '"description": '
     keyTwo = '"label": '
+
+    config = Path('response.txt')
+    if config.is_file():
+        print()
+    else:
+        genResponse()
 
     with open('response.txt') as f:
         data = f.readlines()

@@ -25,7 +25,7 @@ def index2():
     scripts.genKeywords()
     scripts_download.main()
     url = scripts.genUrl()
-    #return redirect(url, code=302)
+    return redirect(url, code=302)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,8 +1,6 @@
-# Outfitters
-
-Created by [@Alan Tsui](https://github.com/tsuialan), [@Edmond Choi](https://github.com/e2choi), and [@Steven Gov](https://github.com/stevengov)
-
-https://devpost.com/software/outfitters
+# Outfitters: a simple, personalized outfit picker app   
+Created by [Alan Tsui](https://github.com/tsuialan), [Edmond Choi](https://github.com/e2choi), and [Steven Gov](https://github.com/stevengov)  
+[Link to Project](https://github.com/stevengov)  
 
 What is it?
 ------------
